@@ -27,7 +27,7 @@ public class HelloApplication extends Application {
         stage.setTitle("Hello!");
         pane = new StackPane();
         pane.getStyleClass().setAll("root");
-        //GeneralBox generalBox = new GeneralBox();
+        
 
         panels.put("Login", new Login());
         panels.put("General", new GeneralBox());
